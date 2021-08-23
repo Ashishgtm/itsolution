@@ -1,0 +1,14 @@
+.mapouter{position:relative;text-align:center;width:1200px;height:600;padding-top: 3%;}
+.gmap_canvas {overflow:hidden;background:none!important;width:1200px;height:600px;}
+.gmap_iframe {height:600px!important;}
+.ktm{
+    padding-top: 2%;
+    font-size: 29px;
+    padding-left: 16%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.details{
+    padding-top: 1%;
+    padding-left: 16%;
+    padding-bottom: 2%;
+}

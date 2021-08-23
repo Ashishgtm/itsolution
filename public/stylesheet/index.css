@@ -1,0 +1,330 @@
+
+
+/*swiper*/
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  
+  }
+
+  .swiper-slide {
+    text-align: center;
+   
+    background: rgba(0, 0, 0, 0.952);
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+   height: 760px;
+     
+  }
+  .text {
+    color: rgba(109, 105, 105, 0.712);
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+   top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    width: 40%;
+    height: 120px;
+    margin: 10px;
+    border: 3px solid;
+    border-color: rgb(192, 199, 206);
+    background-color: transparent;
+    padding-top: 0.6%;
+  }
+
+  /*who we are*/
+
+  .who-sec-row {
+    padding: 40px 0 50px 0px;
+  }
+
+  @media screen and (max-width: 990px) {
+    .who-sec-title {
+      border-bottom: 1px solid rgba(182, 182, 182, 0.692);
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }    
+  }
+
+  .who-sec-title{
+    padding-left: 15%;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.who-sec-desc{
+    font-size: 17px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+.vl-line2{
+  border-left: 2px solid rgb(80, 95, 91);
+  height: 110px;
+}
+
+/*service*/
+
+
+.services{
+font-size: medium;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.service{
+  padding:30px;
+  margin: 20px;
+}
+.service:hover{
+  background-color: rgba(220, 234, 247, 0.726);
+  transition: all 0.3s ease-in-out 0s;
+}
+.service-description a{
+  font-size: small;
+}
+.services .service-title{
+  font-size: large;
+  font-weight: bold;
+  padding-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&display=swap');
+
+.service-head{
+  padding: 16px;
+  background-color:rgba(0, 0, 0, 0.036);
+  font-size: 28px;
+  border-radius: 30px;
+  text-align: center;
+  font-family: 'Besley', serif;
+
+}
+.title-img img{
+  background-color: rgba(0, 0, 0, 0.404);
+  border-radius: 25px;
+
+}
+
+
+/*latest pages*/
+.latest{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 1%;
+  padding-top: 2.5%;
+  padding-bottom: 1%;
+}
+
+.image-1 {
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  cursor: pointer;
+  margin: 0 15px;
+  box-shadow: 0 0 25px 1px rgba(0, 0, 0, .3);
+  transition: .5s;
+  background-color: #555;
+}
+
+.image-1:after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  transform: translate(-140%, -50%);
+  background-color: rgb(135, 135, 155);
+  opacity: 0.8;
+  border-radius: 50%;
+  transition: .8s;
+}
+
+.image-1:hover:after {
+  transform: translate(-50%, -50%);
+}
+
+.image-1:hover img {
+  transform: translate(-50%, -50%) scale(1.3) rotate(20deg);
+}
+
+.img-1 {
+  position: absolute;
+  height: 110%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .8s;
+}
+
+i {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-2000px, -50%);
+  color: rgb(146, 206, 191);
+  transition: .8s;
+  transition-timing-function: ease-in;
+}
+
+.image-1:hover i {
+  transform: translate(-50%, -50%);
+  transition-timing-function: ease;
+}
+ .down-text{
+  padding-top: 3%;
+  padding-left: 18%;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.down-text2{
+  font-size: 15px;
+  padding-left: 30%;
+} 
+
+/*thanks part*/
+/* .row-1{display: flex;
+  padding-bottom: 1%;
+  padding-top: 4%;
+} */
+.thanks-desc{
+  color: #555;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  padding-left: 6%;
+  font-size: 20px;
+}
+
+/* .thanks-image{
+  flex: 50%;
+  padding-left: 3%;
+} */
+.hero{
+  padding-top: 3%;
+  font-size: 15px;
+  text-align: center;
+}
+/* .dot {
+  list-style:none;
+  height: 8px;
+  width: 8px;
+  background-color:#bfbfbf;
+  border-radius: 50%;
+  display:inline-block;
+  margin-right: 8px;
+  cursor: pointer;
+  
+  
+} */
+/* .bots{padding-left:5%;
+padding-top: 3%;
+padding-bottom: 8%;
+} */
+/* .active{
+  background:#333;
+} */
+.row-text{
+
+  padding-top: 4%;
+}
+.wemaketext{
+
+  padding-left: 21%;
+  font-size: 18px;
+  color: #555;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.col-text{
+
+font-size: 18px;
+font-family: 'Times New Roman', Times, serif;
+}
+.wemake{
+  padding-left: 12%;
+}
+.tools{
+  font-size: 38px;
+}
+.weuse{
+  font-size: 38px;
+  padding-left: 20%;
+}
+.vl-line3 {
+ 
+  border-left: 2px solid rgb(80, 95, 91);
+  height: 120px;
+
+}
+
+/*technology*/
+.technology{ 
+  display:flex;
+  padding-left: 25%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+.technology .af{
+  width: 85px;
+  height: 85px;
+  text-align: center;
+ 
+  color: rgba(8, 8, 8, 0.671);
+  box-shadow: 0 0 20px 10px rgba(36, 27, 27, 0.05);
+  margin: 0 30px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  transition:transform 0.5s;
+}
+.technology .af .fab{
+  font-size: 30px;
+  line-height: 80px;
+  position: relative;
+  z-index: 10;
+  transition: color 0.5s;
+}
+.technology .af::after{
+  content:  '';
+  width: 100%;
+  height: 100%;
+  top: -90px;;
+  left: 0;
+  background: linear-gradient(-45deg, #ed1c94, #ffec17);
+  position: absolute;
+  transition: 0.5s;
+}
+.technology .af:hover::after{
+  top:0;
+}
+.technology .af:hover .fab{
+  color: rgb(104, 30, 30);
+}
+.technology .af:hover{
+  transform:translate(-10px);
+}
+.chat-bar-collapsible {
+  z-index: 999;
+}

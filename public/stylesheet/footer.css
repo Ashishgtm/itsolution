@@ -1,0 +1,35 @@
+.row-r{
+    background-color: rgba(220, 234, 247, 0.507);
+    border: 1px solid rgba(212, 231, 248, 0.541);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.mainlink{
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 1%;
+    font-size:20px ;
+   
+}
+.contact-1{
+    font-size: 15px;
+    padding-top: 3%;
+}
+.vl {
+  
+    border-left: 2px solid rgb(80, 95, 91);
+    height: 150px;
+  }
+  .copyright{
+      
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+  }
+.it{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 0.5%;
+    
+}

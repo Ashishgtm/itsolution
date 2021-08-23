@@ -1,0 +1,108 @@
+.row-text{
+   
+    padding-top: 4%;
+    padding-bottom: 4%;
+   
+}
+.about{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif ;
+}
+.inspire{
+    font-size: 38px;
+    color: rgba(40, 40, 240, 0.685);
+}
+.detail{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 1%;
+    margin-top: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.589);
+}
+.row-img{
+    height: 530px;
+    float: right;
+}
+/* Mission */
+.mission{
+    font-size: 21px;
+    font-weight: bold;
+text-align:justify;
+
+}
+.vision{
+    font-size: 21px;
+    font-weight: bold;
+    text-align: justify;
+  
+
+}
+.mission-text{
+    text-align: justify;
+    font-size: 19px;
+   font-family: 'Times New Roman', Times, serif;
+   color: rgba(0, 0, 0, 0.651);
+   padding-top: 2%;
+}
+.vision-text{
+    text-align: justify;
+    font-size: 19px;
+   font-family: 'Times New Roman', Times, serif;
+   color: rgba(0, 0, 0, 0.651);
+   padding-top: 2%;
+
+  
+}
+.vision-col{
+    padding-left: 10%;
+}
+.row-add{
+   
+  padding-left: 18%;
+  background-color: rgba(240, 248, 255, 0.589);
+  
+} 
+
+/* what makes you */
+.what{
+    padding-top: 2%;
+   padding-left: 18%; 
+   font-size: 28px;
+   font-family:'Courier New', Courier, monospace ;
+   padding-bottom: 1%;
+}
+.maindiff{
+    padding-left: 18%; 
+ font-weight:bold ;
+ color: rgba(0, 0, 0, 0.527);
+ padding-bottom: 1%;
+}
+.points{
+    padding-left: 20%; 
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+color: rgba(0, 0, 0, 0.664);
+padding-bottom: 1%;
+}
+.text-1{
+    padding-left: 18%; 
+ font-weight: bold;
+ color: rgba(0, 0, 0, 0.527);
+padding-bottom: 2%;
+}
+.col-text1{
+    padding-left: 10%;
+}
+.maindiff-1{
+
+ font-weight:bold ;
+ color: rgba(0, 0, 0, 0.527);
+ padding-bottom: 1%;
+}
+.points-2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.664);
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
